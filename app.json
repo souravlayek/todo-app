@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "todoapp",
+    "name": "Do it",
     "slug": "todoapp",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,7 +21,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sourav.todoapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.sourav.todoapp",
+      "versionCode": 1
     }
   }
 }
